@@ -1,0 +1,18 @@
+@import "./custom_colors.scss";
+
+nav.navbar {
+  height: 70px;
+
+  .navbar-brand {
+    img {
+      height: 40px;
+      margin-top: 15px;
+    }
+  }
+}
+
+.logged-navbar {
+  .navbar-menu {
+    background-color: $customPurple;
+  }
+}

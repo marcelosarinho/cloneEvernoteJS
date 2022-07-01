@@ -1,0 +1,6 @@
+@import "./custom_colors.scss";
+
+.home-section {
+  background-color: $customPurple;
+  height: calc(100% - 70px);
+}

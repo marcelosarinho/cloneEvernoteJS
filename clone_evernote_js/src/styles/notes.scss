@@ -1,0 +1,17 @@
+@import "./custom_colors.scss";
+
+.notes {
+  height: calc(100% - 70px);
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+.bm-menu {
+  background-color: #FFFFFF;
+  padding-top: 10px;
+}
+
+.list-item.is-active {
+  background-color: $customGreyLighter;
+}
