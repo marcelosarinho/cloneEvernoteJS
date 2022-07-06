@@ -10,6 +10,7 @@ import { faList } from "@fortawesome/free-solid-svg-icons";
 const LoggedHeader = (props) => {
 
   const [navigateToHome, setNavigateToHome] = useState(false)
+  const [name, setName] = useState(localStorage.getItem("user"))
 
   const logout = async () => {
     await UsersAPI.logout()
@@ -51,7 +52,7 @@ const LoggedHeader = (props) => {
             <Dropdown>
               <Dropdown.Trigger>
                 <Button className="button" outlined color="white">
-                  <span>Marcelo ▼</span>
+                  <span>{JSON.parse(name)["name"]} ▼</span>
                 </Button>
               </Dropdown.Trigger>
               <Dropdown.Menu>

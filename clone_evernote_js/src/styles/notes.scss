@@ -12,6 +12,21 @@
   padding-top: 10px;
 }
 
+.list-item {
+  display: block;
+  padding: 10px;
+  background-color: $customGrey;
+}
+
 .list-item.is-active {
   background-color: $customGreyLighter;
+}
+
+.notes-editor {
+  height: calc(100% - 43px);
+  padding: 0;
+
+  .quill {
+    height: 100%;
+  }
 }
