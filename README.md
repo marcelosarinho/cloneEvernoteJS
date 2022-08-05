@@ -18,20 +18,29 @@
 <h2>🌐 Demonstração</h2>
 <div>
   <h3 align="center">
-   <img src="./screenshots/"/>
+   <img src="./screenshots/home.png"/>
   </h3>
   <br/>
   <h3 align="center">
-   <img src="./screenshots/"/>
+   <img src="./screenshots/login.png"/>
   </h3>
   <br/>
   <h3 align="center">
-   <img src="./screenshots/"/>
+   <img src="./screenshots/register.png"/>
   </h3>
   <br/>
   <h3 align="center">
-   <img src="./screenshots/"/>
+   <img src="./screenshots/editor.png"/>
   </h3>
+  <br/>
+  <h3 align="center">
+   <img src="./screenshots/notes.png"/>
+  </h3>
+  <br/>
+  <h3 align="center">
+   <img src="./screenshots/editUser.png"/>
+  </h3>
+  <br/>
 </div>
 <h2 id="sobre">📖 Sobre</h2>
 <p>Esse repositório é um site "clone" do aplicativo Evernote, e foi realizado no curso Programador Full Stack JavaScript Profissional, da OneBitCode. O projeto serviu para entender como desenvolver um aplicativo de maior complexidade, misturando o Front End e Back End, além do deploy.</p>
